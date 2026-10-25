@@ -343,7 +343,7 @@ jobs:
           - 'macos-latest'
           - 'windows-latest'
         node-version:
-          - '24.x'
+          - '24.22.1'
     steps:
       - name: 'Checkout'
         uses: 'actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8' # ratchet:actions/checkout@v5
@@ -435,7 +435,7 @@ jobs:
         os:
           - 'ubuntu-latest'
         node-version:
-          - '24.x'
+          - '24.22.1'
     steps:
       - name: 'Checkout'
         uses: 'actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8' # ratchet:actions/checkout@v5
