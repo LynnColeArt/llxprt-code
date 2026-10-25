@@ -1,4 +1,4 @@
-FROM docker.io/library/node:20-slim
+FROM docker.io/library/node:22.23.4-slim
 
 ARG SANDBOX_NAME="llxprt-code-sandbox"
 ARG CLI_VERSION_ARG

@@ -117,7 +117,7 @@ jobs:
           # Temporarily disable sandbox:docker until OAuth issue is resolved
           # - 'sandbox:docker'
         node-version:
-          - '24.x'
+          - '24.22.1'
         # No excludes needed since sandbox:docker is commented out
         # exclude:
         # Docker tests are not supported on macOS or Windows
